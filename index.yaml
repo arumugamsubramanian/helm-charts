@@ -3,6 +3,16 @@ entries:
   terraform-server-helm-chart:
   - apiVersion: v2
     appVersion: 1.8.0
+    created: "2025-06-01T17:07:46.148402931Z"
+    description: A Helm chart for Kubernetes
+    digest: 4e04cb330e6b9e5ad7ec9c1ae1689422029f78f0c4b989f8c6fb3cebcabf9c67
+    name: terraform-server-helm-chart
+    type: application
+    urls:
+    - https://github.com/arumugamsubramanian/helm-charts/releases/download/terraform-server-helm-chart-0.1.2/terraform-server-helm-chart-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.8.0
     created: "2025-06-01T17:02:34.627987324Z"
     description: A Helm chart for Kubernetes
     digest: 5816881a1f39bdf730cf8841e143377642dd6b9aa43bc2455b1f24be648070ea
@@ -21,4 +31,4 @@ entries:
     urls:
     - https://github.com/arumugamsubramanian/helm-charts/releases/download/terraform-server-helm-chart-0.1.0/terraform-server-helm-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-01T17:02:34.62799573Z"
+generated: "2025-06-01T17:07:46.148415315Z"

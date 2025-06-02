@@ -1,6 +1,6 @@
 image:
-  repository: hashicorp/terraform
-  tag: "1.8.0"
+  repository: ghcr.io/arumugamsubramanian/ubuntu-ssh
+  tag: "main"
   pullPolicy: IfNotPresent
 
 service:

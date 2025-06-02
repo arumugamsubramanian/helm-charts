@@ -29,7 +29,14 @@ spec:
           volumeMounts:
             - name: terraform-storage
               mountPath: /terraform
+            - name: ssh-keys
+              mountPath: /root/.ssh/authorized_keys
+              subPath: authorized_keys
+              readOnly: true
       volumes:
         - name: terraform-storage
           persistentVolumeClaim:
             claimName: terraform-pvc
+        - name: ssh-keys
+          secret:
+            secretName: terraform-ssh-key

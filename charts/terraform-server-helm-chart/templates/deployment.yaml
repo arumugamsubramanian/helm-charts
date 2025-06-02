@@ -25,7 +25,7 @@ spec:
           command: ["/bin/sh"]
           args: ["-c", "tail -f /dev/null"]
           ports:
-            - containerPort: 80
+            - containerPort: 22
           volumeMounts:
             - name: terraform-storage
               mountPath: /terraform
